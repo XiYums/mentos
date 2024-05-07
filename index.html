@@ -1,29 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/aa6d55bc68.js" crossorigin="anonymous"></script>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+    </style>
 </head>
 <body>
-    <body class="bg-success text-warning" style="background-image: url('https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdXRzejB4NXAwZGZseHl2Z2JsZDBlY3l6ajF3dnhvNXY5MzJnNmtxOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MDJ9IbxxvDUQM/giphy.gif'); background-repeat: no-repeat; background-attachment: fixed;background-size: 100% 100%;">
-        <div class="container bg-info">
-        <p class="h1">Hello World</p>
-        <p class="btn btn-dark">HIT ME!</p>
+<div class="bg1">
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo"><a href="#">Mayumi.dev</a></h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#services">My Hobbies</a></li>
+                    <li><a href="#contact">Contacts</a></li>
+                </ul>
+            </nav>
         </div>
-        <br>
-            <div class="container-fluid bg-dark">
-                <p class="h1">Hello World!</p>
+    </div>
+    <div class="content">
+        <div class="header-text">
+            <p>Aspiring Programmer</p>
+            <h1>Hi! Im <span>Mayumi Salas</span><br>from Malabon City,Philippines</h1>
+        </div>
+    </div>
+</div>
+<div id="about">
+    <div class="row">
+        <div class="about-col-1">
+            <img src="images/profile.jpg" alt="profile">
+        </div>
+        <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hello! I'm Mikaela Mayumi Salas, 20 years old from Malabon City. I'm currently studying in Global Reciprocal College. I'm 1st year student with a course of Information Technology. 
+                    I choose BSIT because I have an interest in computer and curiosity about technology, and I want to expand all my knowledge.</p>
+                <p class="abouts">
+                <h2>Skills</h2>
+                <ul>
+                    <li><i class="fa-solid fa-feather-pointed"></i> Bootstrap</li>
+                    <li><i class="fa-solid fa-feather-pointed"></i> HTML</li>
+                    <li<i class="fa-solid fa-feather-pointed"></i> CSS</li>
+                </ul>
+                </p>
+                <p class="abouts">
+                <h2>Education</h2>
+                <ul>
+                    <li><i class="fa-solid fa-feather-pointed"></i> Tinajeros Elementary School/2017</li>
+                    <li><i class="fa-solid fa-feather-pointed"></i> Tinajeros National High School/2021</li>
+                    <li><i class="fa-solid fa-feather-pointed"></i> College of Saint Amatiel Inc./2023</li>
+                    <li><i class="fa-solid fa-feather-pointed"></i> Global Reciprocal Colleges</li>
+                </ul>
+                </p>
+                <p class="abouts">
+                <h2>Experience</h2>
+            <ul>
+                <li><i class="fa-solid fa-feather-pointed"></i> Creating own design in Photo manipulation</li>
+                <li><i class="fa-solid fa-feather-pointed"></i> Experienced in bootstrap</li>
+                <li><i class="fa-solid fa-feather-pointed"></i> Skilled in Photography and Editing</li>
+                <li><i class="fa-solid fa-feather-pointed"></i> Skilled in Html and Css</li>
+            </ul>
+            </p>
+        </div>
+    </div>
+</div>
+<div id="services">
+    <div class="container2">
+        <h1 class="sub-title">Hobbies</h1>
+        <div class="hobby-list">
+            <div>
+                <h2><i class="fa-solid fa-pencil"></i> Drawing</h2>
+                <p>I enjoyed making portrait or any of my art style in my free time.</p>
             </div>
-            <div class="container-fluid bg-info d-flex justify-content-between">
-                <p class="h1">Home</p>
-                <p class="h1">About</p>
-                <p class="h1">Contact</p>
+            <div>
+                <h2><i class="fa-solid fa-guitar"></i> Playing Guitar</h2>
+                <p> I'm playing guitar when I have a free time or I feel that I want music.</p>
             </div>
-            <div class="container-fluid bg-dark">
-                <p class="h1">Home</p>
-                <p class="h1">About</p>
-                <p class="h1">Contact</p>
+            <div>
+                <h2><i class="fa-solid fa-camera"></i> Photography</h2>
+                <p>I took a photos every moment that i feel there's a special.</p>
             </div>
         </div>
-</body> 
+    </div>        
+</div>
+<div id="contact">
+    <div class="container3">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contacts</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>Salasmikaelamayumi@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>09074198308</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form name="submits">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="foot">
+<br>
+<br>
+</div>
+</body>
+</html>
